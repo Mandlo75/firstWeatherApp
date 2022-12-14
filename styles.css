@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(
+    to top,
+    rgb(251, 194, 235) 0%,
+    rgb(166, 193, 238) 100%
+  );
+}
+
+h1 {
+  color: #fff;
+}
+
+.temperature,
+.humidity {
+  list-style: none;
+}
+.temperature {
+  position: fixed;
+  top: 120px;
+  left: 250px;
+}
+.humidity {
+  position: fixed;
+  top: 140px;
+  right: 240px;
+}
+.mainContainer {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px;
+}
+.cloudy {
+  width: 100px;
+}
+.rainyDay {
+  width: 100px;
+}
+.city {
+  width: 30%;
+  border: 3px solid;
+  border-color: rgb(155, 196, 196);
+  border-radius: 10px;
+  margin: 4px 4px;
+}
+.search {
+  border: none;
+  background-color: rgb(157, 157, 212);
+  border-radius: 5px;
+}
+.degrees {
+  font-family: PT Serif;
+}
+.current city {
+  font-family: Verdana, Geneva, Tahoma, sans-;
+  font: weight 50px;
+}
+
+.currentLocation {
+  border: 3px solid;
+  border-color: rgb(66, 85, 136);
+  border-radius: 10px;
+  margin: 4px 4px;
+  padding: 20px 20px;
+}
